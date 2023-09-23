@@ -7,29 +7,31 @@
  <link rel="stylesheet" href="aula04.css">
 </head>
 <body>
+
+ <div class="form-container">
  <form action="https://www.youtube.com/watch?v=cufD_xiPCXo" method="post">
   <h1>Cadastro</h1>
   
-  <label for="name">Nome:</label><br>
-  <input type="text" id="name" required><br><br>
+  <label class="label-input-text" for="name">Nome:</label>
+  <input type="name" id="name" required>
 
-  <label for="password">Senha:</label><br>
-  <input type="text" id="password"required><br><br>
+  <label class="label-input-text" for="password">Senha:</label>
+  <input type="password" id="password"required>
 
-  <label for="email">E-mail:</label><br>
-  <input type="text" id="email" required><br><br>
+  <label class="label-input-text" for="email">E-mail:</label>
+  <input type="email" id="email" required>
 
-  <label for="age">Idade:</label><br>
-  <input type="text" id="age" required><br><br>
+  <label class="label-input-text" for="age">Idade:</label>
+  <input type="age" id="age" required>
 
-  <label for="birth">Data de Nascimento:</label><br>
-  <input type="date" id="birth" required><br><br>
+  <label class="label-input-text" for="birth">Data de Nascimento:</label>
+  <input type="date" id="birth" required>
 
-  <label>Curso:</label>
-  <select required><option value=""></option><option value="1">Front-end</option><option value="2">Back-end</option><option value="3">Fullstack</option></select><br><br><br>
+  <label class="label-input-text">Curso:</label>
+  <select required><option value=""></option><option value="1">Front-end</option><option value="2">Back-end</option><option value="3">Fullstack</option></select><br>
 
-  <p>Gênero:</p>
-
+  <p class="label-input-text">Gênero:</p>
+  
   <input type="radio" id="man" name="group1">
   <label for="man">Masculino</label><br>
 
@@ -39,7 +41,9 @@
   <input type="radio" id="other" name="group1">
   <label for="other">Outro</label><br><br>
 
-  <p>Experiências:</p>
+
+
+  <p class="label-input-text">Experiências:</p>
 
   <input type="radio" id="newbie" name="group2">
   <label for="newbie">Iniciante</label><br>
@@ -51,12 +55,13 @@
   <label for="advanced">Avançado</label><br><br>
 
   <input type="checkbox" id="terms" required>
-  <label for="terms">Aceito os termos e condições</label><br><br>
+  <label for="terms">Aceito os termos e condições</label><br>
 
   <input type="submit" value="Enviar">
   
 
 
  </form>
+</div>
 </body>
 </html>
