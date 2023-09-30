@@ -25,10 +25,6 @@ body {
   gap: 15px;
 }
 
-a {
-  color: white;
-}
-
 a:hover {
   color: lightgray;
   cursor: pointer;
@@ -38,7 +34,10 @@ a:hover {
   display: flex;
   padding: 20px;
   gap: 20px;
-  justify-content: center;
+  flex: 1;
+  align-items: flex-start;
+  align-content: flex-start;
+  flex-wrap: wrap;
 }
 
 .card {
@@ -50,4 +49,28 @@ a:hover {
   gap: 15px;
   box-shadow: 0 0 3px rgba(0, 0, 0, 0.4);
   border-radius: 5px;
+}
+
+.footer {
+  display: flex;
+  background-color: #333;
+  color: white;
+  justify-content: space-evenly;
+}
+
+.footer-menu {
+  display: flex;
+  flex-direction: column;
+  align-content: flex-start;
+  padding: 20px;
+  gap: 3px;
+}
+
+a {
+  margin: 0;
+  color: white;
+}
+
+h4 {
+  margin: 10px 0;
 }
