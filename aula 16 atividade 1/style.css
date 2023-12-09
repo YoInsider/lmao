@@ -1,0 +1,25 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+    background-color: antiquewhite;
+    padding: 20px;
+}
+
+input, button {
+    background-color: black;
+    border-radius: 5px;
+    border: solid rgba(200, 200, 200, 0.3);
+    color: white;
+    padding: 6px;
+    margin: 5px;
+    font-size: 16px;
+}
+
+button {
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: dimgrey;
+}
